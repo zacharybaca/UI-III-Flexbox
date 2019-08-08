@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 *{
-	border: 3px solid red;
+	border: 10px solid black;
 }
 nav div {
 	display: flex;
@@ -73,4 +73,10 @@ nav div {
 	width: 80%;
 	margin-top: 30px;
 	
+}
+.image-logo {
+	display: flex;
+	justify-content: flex-end; 
+	margin-top: -20px;
+	margin-right: 50px;
 }
