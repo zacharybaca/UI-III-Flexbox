@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5 {
 *{
 	border: 10px solid black;
 }
-nav div {
+nav  {
 	display: flex;
 	justify-content: space-around;
 	width: 80%;
@@ -79,4 +79,20 @@ nav div {
 	justify-content: flex-end; 
 	margin-top: -20px;
 	margin-right: 50px;
+}
+.innovation {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 90px;
+    
+}
+.image-class {
+	display: flex;
+	justify-content: flex-end;
+	margin-top: -200px;
+	margin-right: 90px;
+}
+h1 {
+	font-size: 50px;
 }
